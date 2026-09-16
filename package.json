@@ -1,0 +1,15 @@
+{
+  "name": "corememory-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "corememory.works — static site for Core Memory Works, deployed on Cloudflare Workers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler versions upload",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.132.0"
+  }
+}

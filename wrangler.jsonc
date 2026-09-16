@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "corememory-website",
+  "compatibility_date": "2026-09-16",
+
+  // Static-assets-only Worker: there is no server code, Cloudflare just serves
+  // everything under public/ from its edge. `_headers` and `_redirects` inside
+  // that directory are picked up automatically.
+  "assets": {
+    "directory": "./public",
+
+    // /visit -> /visit/index.html, and /visit/index.html -> /visit/
+    "html_handling": "auto-trailing-slash",
+
+    // Unknown paths get the branded 404 page with a 404 status.
+    "not_found_handling": "404-page"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,5 @@
+# The footer of the original design advertises /restoration — keep it working.
+/restoration    /services/    301
+/quote          /contact/     301
+/donate         /about/       301
+/restoration/*  /services/    301

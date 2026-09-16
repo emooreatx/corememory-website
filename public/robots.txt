@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://corememory.works/sitemap.xml
