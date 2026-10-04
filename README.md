@@ -108,9 +108,10 @@ and fall back to `mailto:` only if the request fails.
 
 Things that are deliberately provisional, to fill in before or at opening:
 
-- **Address.** The site says "address at opening" in several places
-  (`visit/`, `contact/`, the footer). Search for `Address at opening`.
-- **Hours.** `visit/index.html` shows "Opening soon" for public hours.
+- **Opening banner.** Every page's top banner says "Now open in Roselle ·
+  Grand opening Sat, Oct 10". After the grand opening (Oct 10, 2026), search
+  for `Grand opening` and update the banner, the home-page panel and the
+  Visit hours card.
 - **People.** `about/index.html` has three placeholder cards — names, roles and
   photos go in there, replacing the grey `PHOTO` blocks.
 - **Class schedule.** `classes/index.html` is labelled "sample schedule" and the

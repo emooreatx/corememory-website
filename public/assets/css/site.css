@@ -704,7 +704,6 @@ h2.section-title small {
   padding-bottom: 10px;
   border-bottom: 1px dotted var(--rule-mid);
 }
-.hours .soon { color: var(--rust); }
 
 .figure-card { border: 1px solid var(--rule); background: var(--card); }
 .figure-card__media {
