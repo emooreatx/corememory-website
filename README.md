@@ -63,7 +63,7 @@ pages; `_headers` sets cache lifetimes and a few baseline security headers.
 public/
   index.html            home
   visit/                hours, the floor, finding us
-  classes/              class + event schedule
+  events/               events (coming soon), parties, classes on demand
   services/             restoration & data recovery (the paid side)
   shop/                 what's sold at the counter
   about/                the two-halves story, people, supporting the floor
@@ -114,8 +114,8 @@ Things that are deliberately provisional, to fill in before or at opening:
   Visit hours card.
 - **People.** `about/index.html` has three placeholder cards — names, roles and
   photos go in there, replacing the grey `PHOTO` blocks.
-- **Class schedule.** `classes/index.html` is labelled "sample schedule" and the
-  dates are examples.
+- **Events.** `events/index.html` says "Coming Soon!" with no dates. Add dated
+  rows there (and on the home page "Events" list) once the calendar is set.
 - **Donate button.** `about/index.html` points at the contact page; swap the
   `href` for a real payment link when there is one.
 - **Social handles.** None are linked yet; the footer has email only.

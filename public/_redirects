@@ -3,3 +3,5 @@
 /quote          /contact/     301
 /donate         /about/       301
 /restoration/*  /services/    301
+/classes        /events/      301
+/classes/*      /events/      301
