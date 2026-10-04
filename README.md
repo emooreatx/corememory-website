@@ -1,7 +1,8 @@
 # corememory.works
 
-The website for **Core Memory Works** — a computer workshop, museum floor and
-restoration service in Roselle, Illinois.
+The website for **Core Memory Works** — antique computers bought, sold and traded,
+legacy code conversion and industrial modernization, and parties and classes —
+in Roselle, Illinois.
 
 It is a plain static site: hand-written HTML, one stylesheet, ~3 KB of optional
 JavaScript, and self-hosted fonts. No framework, no build step. Everything under

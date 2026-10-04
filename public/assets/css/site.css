@@ -878,7 +878,7 @@ h2.section-title small {
   display: flex;
   flex-direction: column;
 }
-.shop-item__body { padding: 26px; border-bottom: 1px solid var(--rule); }
+.shop-item__body { flex: 1; padding: 26px; border-bottom: 1px solid var(--rule); }
 .shop-item__body h2 {
   font-weight: 700;
   font-size: 25px;
