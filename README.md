@@ -110,7 +110,7 @@ and fall back to `mailto:` only if the request fails.
 Things that are deliberately provisional, to fill in before or at opening:
 
 - **Top banner.** Every page's top banner promotes the weekly AI ethics
-  discussions (Wednesdays, 6–8pm). Search for `banner__status` to change it.
+  discussions (Wednesdays, 6–8pm) and computer club (Saturdays, 1–10pm). Search for `banner__status` to change it.
 - **People.** `about/index.html` has three placeholder cards — names, roles and
   photos go in there, replacing the grey `PHOTO` blocks.
 - **Events.** `events/index.html` says "Coming Soon!" with no dates. Add dated
